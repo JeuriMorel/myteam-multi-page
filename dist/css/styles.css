@@ -1299,7 +1299,7 @@ header .hero h1 span {
         bottom: 0;
     }
     .footer__footer .container .footer__nav p {
-        text-align: right;
+        text-align:left;
     }
 }
 
