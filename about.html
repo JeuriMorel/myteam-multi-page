@@ -26,10 +26,10 @@
                     aria-label="my team"
                 />
                 <ul>
-                    <li>
+                    <li class="link">
                         <a href="./index.html">home</a>
                     </li>
-                    <li>
+                    <li class="link">
                         <a href="./about.html">about</a>
                     </li>
                     <li>
@@ -62,11 +62,18 @@
             </div>
 
             <section class="hero hero--about">
-                <div class="container hero--about__text hero__text">
+                <div
+                    class="
+                        container container--narrow
+                        hero--about__text
+                        hero__text
+                    "
+                >
                     <h1 class="lg">About</h1>
 
                     <div>
-                        <p class="sm">
+                        <span></span>
+                        <p class="sm--tall">
                             We help companies build dynamic teams made up of top
                             global talent. Using our network of passionate
                             professionals we drive innovation and deliver
@@ -82,7 +89,7 @@
         <main class="about">
             <section class="directors">
                 <div class="container">
-                    <h1>Meet the directors</h1>
+                    <h2>Meet the directors</h2>
 
                     <div class="grid">
                         <div class="card__container" data-card="nikita">
@@ -370,27 +377,33 @@
 
             <section class="clients">
                 <div class="container">
-                    <h1>Some of our clients</h1>
+                    <h2>Some of our clients</h2>
                     <div class="clients__logos">
                         <img
                             src="./assets/logo-the-verge.png"
                             alt="the verge logo"
+                            id="verge"
                         />
+
                         <img
                             src="./assets/logo-jakarta-post.png"
                             alt="jakarta logo"
+                            id="jakarta"
                         />
                         <img
                             src="./assets/logo-the-guardian.png"
                             alt="the guardian logo"
+                            id="guardian"
                         />
                         <img
                             src="./assets/logo-tech-radar.png"
                             alt="tech radar logo"
+                            id="tech"
                         />
                         <img
                             src="./assets/logo-gadgets-now.png"
                             alt="gadgets now logo"
+                            id="gadgets"
                         />
                     </div>
                 </div>
@@ -399,7 +412,7 @@
 
         <footer class="footer">
             <section class="cta">
-                <div class="container">
+                <div class="container container--narrow">
                     <h2>Ready to get started?</h2>
                     <a href="./contact.html" class="btn btn--primary--dk">
                         <span> contact us </span>

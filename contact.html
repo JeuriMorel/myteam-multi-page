@@ -26,16 +26,16 @@
                     aria-label="my team"
                 />
                 <ul>
-                    <li>
+                    <li class="link">
                         <a href="./index.html">home</a>
                     </li>
-                    <li>
+                    <li class="link">
                         <a href="./about.html">about</a>
                     </li>
                     <li>
                         <a href="./contact.html" class="btn btn--primary--lt">
-                            contact us</a
-                        >
+                            <span> contact us </span>
+                        </a>
                     </li>
                 </ul>
 
@@ -85,20 +85,23 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact__form" autocomplete="off">
+                <form class="contact__form" autocomplete="off" novalidate>
                     <input
                         type="text"
                         name="name"
+                        id="name"
                         placeholder="name"
                         autocomplete="off"
                     />
+                    <small>this field is required</small>
                     <input
                         type="email"
                         name="email"
-                        id=""
+                        id="email"
                         placeholder="email address"
                         autocomplete="off"
                     />
+                    <small>this field is required</small>
                     <input
                         type="text"
                         name="company"
@@ -118,9 +121,11 @@
                         rows="4"
                         placeholder="message"
                     ></textarea>
-                    <button type="submit" class="btn btn--secondary" disabled>
+                    <small>this field is required</small>
+                    <button type="submit" class="btn btn--secondary">
                         <span> submit</span>
                     </button>
+                    <small>thank you for your message!</small>
                 </form>
             </div>
         </main>
