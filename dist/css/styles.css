@@ -697,7 +697,7 @@ li.link a:hover:after {
     background-image: url("../../assets/bg-pattern-contact-2.svg"),
         url("../../assets/bg-pattern-about-2-contact-1.svg");
     background-repeat: no-repeat;
-    background-position: calc(100% + 100px) calc(100% + 110px), -100%;
+    background-position: calc(100% + 100px) calc(100% + 110px), -300%;
     padding-top: 2.25rem;
     padding-bottom: 5.625rem;
 }
