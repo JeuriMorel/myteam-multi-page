@@ -1257,6 +1257,14 @@ header .hero h1 span {
     }
     .home__mainContent__features__feature__text {
         text-align: left;
+        display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1rem;
     }
     .footer .cta {
         padding-block: 4.75rem;
@@ -1454,8 +1462,8 @@ header .hero h1 span {
         gap: 12%;
     }
     .home__mainContent .container h2 {
-        font-size: 2.5rem;
-        line-height: 2.5rem;
+        font-size: 3rem;
+        line-height: 3rem;
     }
     header .hero--about {
         padding-block: 7.5rem;
@@ -1594,6 +1602,10 @@ header .hero h1 span {
     }
     .about .clients__logos #gadgets {
         width: 6.25rem;
+    }
+    .footer .cta h2 {
+        font-size:3rem;
+        line-height: 3rem;
     }
 }
 
