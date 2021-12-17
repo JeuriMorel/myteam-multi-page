@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [https://www.frontendmentor.io/solutions/multipage-website-using-html-scss-and-vanilla-js-yeNj52SEb]
--   Live Site URL: [https://vercel.com/jeurimorel/myteam-multi-page]
+-   Live Site URL: [https://myteam-multi-page-ten.vercel.app/]
 
 ## My process
 
